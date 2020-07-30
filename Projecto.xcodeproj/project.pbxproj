@@ -15,6 +15,14 @@
 		1250769224D1F502005516F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1250769124D1F502005516F0 /* Assets.xcassets */; };
 		1250769524D1F502005516F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1250769324D1F502005516F0 /* LaunchScreen.storyboard */; };
 		180E409224D3343D00DBA944 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409124D3343D00DBA944 /* HomeViewController.swift */; };
+		180E409424D3527C00DBA944 /* QuizHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409324D3527C00DBA944 /* QuizHomeViewController.swift */; };
+		180E409624D35BE400DBA944 /* PriceRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409524D35BE400DBA944 /* PriceRangeViewController.swift */; };
+		180E409824D35C4700DBA944 /* GenderStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409724D35C4700DBA944 /* GenderStyleViewController.swift */; };
+		180E409A24D35C7800DBA944 /* ClothingStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409924D35C7800DBA944 /* ClothingStyleViewController.swift */; };
+		180E409C24D35C9E00DBA944 /* ClothingLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409B24D35C9E00DBA944 /* ClothingLookViewController.swift */; };
+		180E409E24D35D8900DBA944 /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409D24D35D8900DBA944 /* QuizResultViewController.swift */; };
+		180E40A024D363E600DBA944 /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409F24D363E600DBA944 /* FinderViewController.swift */; };
+		189BE65324D373B3007968DD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BE65224D373B3007968DD /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		1250769424D1F502005516F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1250769624D1F502005516F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180E409124D3343D00DBA944 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		180E409324D3527C00DBA944 /* QuizHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHomeViewController.swift; sourceTree = "<group>"; };
+		180E409524D35BE400DBA944 /* PriceRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeViewController.swift; sourceTree = "<group>"; };
+		180E409724D35C4700DBA944 /* GenderStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderStyleViewController.swift; sourceTree = "<group>"; };
+		180E409924D35C7800DBA944 /* ClothingStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingStyleViewController.swift; sourceTree = "<group>"; };
+		180E409B24D35C9E00DBA944 /* ClothingLookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingLookViewController.swift; sourceTree = "<group>"; };
+		180E409D24D35D8900DBA944 /* QuizResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
+		180E409F24D363E600DBA944 /* FinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
+		189BE65224D373B3007968DD /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,14 @@
 				1250768724D1F4FD005516F0 /* SceneDelegate.swift */,
 				1250768924D1F4FD005516F0 /* ViewController.swift */,
 				180E409124D3343D00DBA944 /* HomeViewController.swift */,
+				189BE65224D373B3007968DD /* AboutViewController.swift */,
+				180E409F24D363E600DBA944 /* FinderViewController.swift */,
+				180E409324D3527C00DBA944 /* QuizHomeViewController.swift */,
+				180E409524D35BE400DBA944 /* PriceRangeViewController.swift */,
+				180E409724D35C4700DBA944 /* GenderStyleViewController.swift */,
+				180E409924D35C7800DBA944 /* ClothingStyleViewController.swift */,
+				180E409B24D35C9E00DBA944 /* ClothingLookViewController.swift */,
+				180E409D24D35D8900DBA944 /* QuizResultViewController.swift */,
 				1250768B24D1F4FD005516F0 /* Main.storyboard */,
 				1250769124D1F502005516F0 /* Assets.xcassets */,
 				1250769324D1F502005516F0 /* LaunchScreen.storyboard */,
@@ -144,11 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180E409424D3527C00DBA944 /* QuizHomeViewController.swift in Sources */,
+				180E409A24D35C7800DBA944 /* ClothingStyleViewController.swift in Sources */,
 				180E409224D3343D00DBA944 /* HomeViewController.swift in Sources */,
 				1250768A24D1F4FD005516F0 /* ViewController.swift in Sources */,
+				180E40A024D363E600DBA944 /* FinderViewController.swift in Sources */,
 				1250768624D1F4FD005516F0 /* AppDelegate.swift in Sources */,
 				1250768824D1F4FD005516F0 /* SceneDelegate.swift in Sources */,
 				1250769024D1F4FD005516F0 /* Projecto.xcdatamodeld in Sources */,
+				180E409E24D35D8900DBA944 /* QuizResultViewController.swift in Sources */,
+				180E409624D35BE400DBA944 /* PriceRangeViewController.swift in Sources */,
+				180E409C24D35C9E00DBA944 /* ClothingLookViewController.swift in Sources */,
+				189BE65324D373B3007968DD /* AboutViewController.swift in Sources */,
+				180E409824D35C4700DBA944 /* GenderStyleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

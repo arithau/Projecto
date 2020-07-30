@@ -14,6 +14,7 @@
 		1250769024D1F4FD005516F0 /* Projecto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1250768E24D1F4FD005516F0 /* Projecto.xcdatamodeld */; };
 		1250769224D1F502005516F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1250769124D1F502005516F0 /* Assets.xcassets */; };
 		1250769524D1F502005516F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1250769324D1F502005516F0 /* LaunchScreen.storyboard */; };
+		180E409224D3343D00DBA944 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409124D3343D00DBA944 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1250769124D1F502005516F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1250769424D1F502005516F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1250769624D1F502005516F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180E409124D3343D00DBA944 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				1250768524D1F4FD005516F0 /* AppDelegate.swift */,
 				1250768724D1F4FD005516F0 /* SceneDelegate.swift */,
 				1250768924D1F4FD005516F0 /* ViewController.swift */,
+				180E409124D3343D00DBA944 /* HomeViewController.swift */,
 				1250768B24D1F4FD005516F0 /* Main.storyboard */,
 				1250769124D1F502005516F0 /* Assets.xcassets */,
 				1250769324D1F502005516F0 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180E409224D3343D00DBA944 /* HomeViewController.swift in Sources */,
 				1250768A24D1F4FD005516F0 /* ViewController.swift in Sources */,
 				1250768624D1F4FD005516F0 /* AppDelegate.swift in Sources */,
 				1250768824D1F4FD005516F0 /* SceneDelegate.swift in Sources */,

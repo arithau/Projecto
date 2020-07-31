@@ -26,6 +26,7 @@ var finderBrands = ["Whimsy + Row", "Reformation", "Thought Clothing", "Monsoon"
     @IBAction func finderSubmit(_ sender: UIButton) {
     let showBrand = finderBrands.randomElement()
         finderLabel.text = showBrand
+        finderTextField.text = ""
     }
 
 }

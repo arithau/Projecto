@@ -9,27 +9,25 @@
 /* Begin PBXBuildFile section */
 		1250768624D1F4FD005516F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250768524D1F4FD005516F0 /* AppDelegate.swift */; };
 		1250768824D1F4FD005516F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250768724D1F4FD005516F0 /* SceneDelegate.swift */; };
-		1250768A24D1F4FD005516F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250768924D1F4FD005516F0 /* ViewController.swift */; };
 		1250768D24D1F4FD005516F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1250768B24D1F4FD005516F0 /* Main.storyboard */; };
 		1250769024D1F4FD005516F0 /* Projecto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1250768E24D1F4FD005516F0 /* Projecto.xcdatamodeld */; };
 		1250769224D1F502005516F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1250769124D1F502005516F0 /* Assets.xcassets */; };
 		1250769524D1F502005516F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1250769324D1F502005516F0 /* LaunchScreen.storyboard */; };
 		180E409224D3343D00DBA944 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409124D3343D00DBA944 /* HomeViewController.swift */; };
 		180E409424D3527C00DBA944 /* QuizHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409324D3527C00DBA944 /* QuizHomeViewController.swift */; };
-		180E409624D35BE400DBA944 /* PriceRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409524D35BE400DBA944 /* PriceRangeViewController.swift */; };
-		180E409824D35C4700DBA944 /* GenderStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409724D35C4700DBA944 /* GenderStyleViewController.swift */; };
-		180E409A24D35C7800DBA944 /* ClothingStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409924D35C7800DBA944 /* ClothingStyleViewController.swift */; };
-		180E409C24D35C9E00DBA944 /* ClothingLookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409B24D35C9E00DBA944 /* ClothingLookViewController.swift */; };
 		180E409E24D35D8900DBA944 /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409D24D35D8900DBA944 /* QuizResultViewController.swift */; };
 		180E40A024D363E600DBA944 /* FinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E409F24D363E600DBA944 /* FinderViewController.swift */; };
 		189BE65324D373B3007968DD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189BE65224D373B3007968DD /* AboutViewController.swift */; };
+		FBE9404824D432EB0092A05E /* QuizQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9404724D432EB0092A05E /* QuizQuestionsViewController.swift */; };
+		FBE9404A24D43C700092A05E /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9404924D43C700092A05E /* QuestionData.swift */; };
+		FBE9404C24D4484C0092A05E /* BrandData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9404B24D4484C0092A05E /* BrandData.swift */; };
+		FBE9404E24D457570092A05E /* FinderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE9404D24D457570092A05E /* FinderData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1250768224D1F4FD005516F0 /* Projecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1250768524D1F4FD005516F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1250768724D1F4FD005516F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1250768924D1F4FD005516F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1250768C24D1F4FD005516F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1250768F24D1F4FD005516F0 /* Projecto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Projecto.xcdatamodel; sourceTree = "<group>"; };
 		1250769124D1F502005516F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,13 +35,13 @@
 		1250769624D1F502005516F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180E409124D3343D00DBA944 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		180E409324D3527C00DBA944 /* QuizHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizHomeViewController.swift; sourceTree = "<group>"; };
-		180E409524D35BE400DBA944 /* PriceRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRangeViewController.swift; sourceTree = "<group>"; };
-		180E409724D35C4700DBA944 /* GenderStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderStyleViewController.swift; sourceTree = "<group>"; };
-		180E409924D35C7800DBA944 /* ClothingStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingStyleViewController.swift; sourceTree = "<group>"; };
-		180E409B24D35C9E00DBA944 /* ClothingLookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingLookViewController.swift; sourceTree = "<group>"; };
 		180E409D24D35D8900DBA944 /* QuizResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
 		180E409F24D363E600DBA944 /* FinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderViewController.swift; sourceTree = "<group>"; };
 		189BE65224D373B3007968DD /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		FBE9404724D432EB0092A05E /* QuizQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizQuestionsViewController.swift; sourceTree = "<group>"; };
+		FBE9404924D43C700092A05E /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
+		FBE9404B24D4484C0092A05E /* BrandData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandData.swift; sourceTree = "<group>"; };
+		FBE9404D24D457570092A05E /* FinderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,21 +76,20 @@
 			children = (
 				1250768524D1F4FD005516F0 /* AppDelegate.swift */,
 				1250768724D1F4FD005516F0 /* SceneDelegate.swift */,
-				1250768924D1F4FD005516F0 /* ViewController.swift */,
 				180E409124D3343D00DBA944 /* HomeViewController.swift */,
 				189BE65224D373B3007968DD /* AboutViewController.swift */,
 				180E409F24D363E600DBA944 /* FinderViewController.swift */,
 				180E409324D3527C00DBA944 /* QuizHomeViewController.swift */,
-				180E409524D35BE400DBA944 /* PriceRangeViewController.swift */,
-				180E409724D35C4700DBA944 /* GenderStyleViewController.swift */,
-				180E409924D35C7800DBA944 /* ClothingStyleViewController.swift */,
-				180E409B24D35C9E00DBA944 /* ClothingLookViewController.swift */,
+				FBE9404724D432EB0092A05E /* QuizQuestionsViewController.swift */,
 				180E409D24D35D8900DBA944 /* QuizResultViewController.swift */,
 				1250768B24D1F4FD005516F0 /* Main.storyboard */,
 				1250769124D1F502005516F0 /* Assets.xcassets */,
 				1250769324D1F502005516F0 /* LaunchScreen.storyboard */,
 				1250769624D1F502005516F0 /* Info.plist */,
 				1250768E24D1F4FD005516F0 /* Projecto.xcdatamodeld */,
+				FBE9404924D43C700092A05E /* QuestionData.swift */,
+				FBE9404B24D4484C0092A05E /* BrandData.swift */,
+				FBE9404D24D457570092A05E /* FinderData.swift */,
 			);
 			path = Projecto;
 			sourceTree = "<group>";
@@ -169,18 +166,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				180E409424D3527C00DBA944 /* QuizHomeViewController.swift in Sources */,
-				180E409A24D35C7800DBA944 /* ClothingStyleViewController.swift in Sources */,
+				FBE9404E24D457570092A05E /* FinderData.swift in Sources */,
 				180E409224D3343D00DBA944 /* HomeViewController.swift in Sources */,
-				1250768A24D1F4FD005516F0 /* ViewController.swift in Sources */,
 				180E40A024D363E600DBA944 /* FinderViewController.swift in Sources */,
 				1250768624D1F4FD005516F0 /* AppDelegate.swift in Sources */,
 				1250768824D1F4FD005516F0 /* SceneDelegate.swift in Sources */,
 				1250769024D1F4FD005516F0 /* Projecto.xcdatamodeld in Sources */,
 				180E409E24D35D8900DBA944 /* QuizResultViewController.swift in Sources */,
-				180E409624D35BE400DBA944 /* PriceRangeViewController.swift in Sources */,
-				180E409C24D35C9E00DBA944 /* ClothingLookViewController.swift in Sources */,
+				FBE9404C24D4484C0092A05E /* BrandData.swift in Sources */,
+				FBE9404A24D43C700092A05E /* QuestionData.swift in Sources */,
 				189BE65324D373B3007968DD /* AboutViewController.swift in Sources */,
-				180E409824D35C4700DBA944 /* GenderStyleViewController.swift in Sources */,
+				FBE9404824D432EB0092A05E /* QuizQuestionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
